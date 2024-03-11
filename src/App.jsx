@@ -2,6 +2,7 @@
 // import Food from './Food.jsx';
 import profilePic from "./assets/profile-pic.jpg";
 import Card from './card.jsx';
+import List from './List.jsx';
 import Footer from './Footer.jsx';
 
 // import Student from './Student.jsx';
@@ -23,6 +24,8 @@ function App() {
             description="Alpha MLSA"
             />
       </div>
+
+      <List />
      
       <Footer/>
       {/* <Student name="John Doe" age={30}/>
